@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            background-color: black;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+
+        .outer{
+            width: 950px;
+            height: 800px;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .outer{
+            animation-name: rotate;
+            animation-iteration-count: infinite;
+            animation-duration: 1s;
+            animation-delay: 0ms;
+            background-color: rgb(23, 248, 248);
+        }
+        .outer a {
+            color: aqua;
+
+        }
+
+        @keyframes rotate {
+            from {
+                filter: hue-rotate(0deg)
+            }
+            to {
+                filter: hue-rotate(360deg);
+            }
+        }
+
+        .inner {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            border-radius: 10px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 25px;
+        }
+        /* #hack {
+            text-decoration-line: none;
+            color: red;
+            background-color: black;
+            width: 870px;
+            height: 50%;
+            display: inline-block;
+            font-size: 3em;
+            padding: 10px;
+            text-align: center;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            
+
+        }
+        #hack:hover {
+            color: black;
+            background-color: red;
+            
+        
+        }
+        #hack::before{
+            content: url("https://cdnuploads.aa.com.tr/uploads/Contents/2020/08/18/thumbs_b_c_de6cba69a39d68b177355f65828b74fd.jpg?v=030020");
+        } */
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+            <a href="https://c.tenor.com/7a4Y5M-pYJUAAAAC/skulls.gif" id="hack">~Hacked By GuardianOfBarcanS~</a> 
+
+        </div>
+       
+    </div>
+</body>
+</html>
